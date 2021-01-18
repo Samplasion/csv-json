@@ -1,0 +1,8 @@
+.DropZone {
+    @apply cursor-pointer border-2 border-dashed border-gray-400 dark:border-gray-600 py-6;
+    @apply block !important;
+}
+
+.DropZone.active {
+    @apply bg-gray-100 dark:bg-gray-800;
+}
